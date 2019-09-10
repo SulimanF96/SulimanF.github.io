@@ -164,7 +164,11 @@ $(function() {
 	  //Call the function on load and resize
 	  $(window).on('ready load resize orientationchange',function(){responsive();});
 
-
+ $('.nav-link').click(function(){
+		$('.navbar-toggler').attr('aria-expanded','false');
+		$('.navbar-collapse').removeClass('show');
+	})
+	
 
 
 
