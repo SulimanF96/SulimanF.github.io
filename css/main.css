@@ -50,12 +50,19 @@ img {
 
  .collapse{
   /* margin: 10px 343px	 */
-  margin: 0px 343px;
+  /* margin: 0px 343px; */
+  margin: 0 auto;
  } 
 
  /* .collapse {
   margin: 2px -2px;
 }   */
+
+.navbar-collapse {
+  
+  flex-grow: 0;
+
+}
 
 
 .navbar-brand {
