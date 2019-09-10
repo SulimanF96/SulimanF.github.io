@@ -49,7 +49,8 @@ img {
 
 
  .collapse{
-  margin: 10px 343px	
+  /* margin: 10px 343px	 */
+  margin: 0px 343px;
  } 
 
  /* .collapse {
@@ -209,15 +210,23 @@ footer {
 }
 
 @media only screen and (min-width: 992px) and (max-width:1150px) {
-  .color-picker{
+  /* .color-picker{
     margin-left: -258px;
     display: flex;
-  }
+  } */
+
+  .color-picker{
+    margin-left: -258px;
+  } 
 
   .navbar-nav{
     margin-left: -237px;
   }
  }
+
+ .color-picker {
+  display: flex;
+}
 
  
 
@@ -243,4 +252,4 @@ footer {
   font-weight: bold;
  }
 
- 
+
